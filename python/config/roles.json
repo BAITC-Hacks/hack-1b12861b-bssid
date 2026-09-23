@@ -1,0 +1,14 @@
+{
+  "coordinator_in_degree": 3,
+  "coordinator_out_degree": 3,
+  "coordinator_turnover_quantile": 0.95,
+  "distributor_out_degree": 10,
+  "consolidator_in_degree": 3,
+  "consolidator_max_pass_through": 0.5,
+  "transit_min_pass_through": 0.8,
+  "transit_max_pass_through": 1.2,
+  "terminal_incoming_quantile": 0.75,
+  "top_n": 30,
+  "priority_weights": {"turnover": 0.4, "degree": 0.3, "role": 0.3},
+  "role_weights": {"coordinator": 1.0, "consolidator": 0.85, "distributor": 0.8, "transit": 0.65, "terminal": 0.5, "peripheral": 0.1}
+}

@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "expected": {
+    "nodes": 2248,
+    "seeds": 81,
+    "depth_counts": {
+      "0": 81,
+      "1": 472,
+      "2": 462,
+      "3": 789,
+      "4": 444
+    },
+    "edges": 3119,
+    "transactions": 4840,
+    "sum_kzt": 365890012,
+    "min_transaction_kzt": 5000,
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "max_seconds": 300
+  },
+  "observed": {
+    "nodes": 2248,
+    "seeds": 81,
+    "depth_counts": {
+      "0": 81,
+      "1": 472,
+      "2": 462,
+      "3": 789,
+      "4": 444
+    },
+    "edges": 3119,
+    "transactions": 4840,
+    "sum_kzt": 365890012.01
+  },
+  "shortest_depth_mismatches": [],
+  "isolated_gids": [
+    100000000456947100,
+    100000003265658100,
+    100000003349739100,
+    100000003770083100,
+    100000004021459100,
+    100000004174835100,
+    100000005017150100,
+    100000005087431100,
+    100000005235389100,
+    100000005480435100,
+    100000005495722100,
+    100000005550592100,
+    100000005560900100,
+    100000005568407100,
+    100000008117324100,
+    100000008205000100,
+    100000008513251100,
+    100000008669037100,
+    100000008701222100
+  ],
+  "isolated_seeds": 19,
+  "weak_components": 35,
+  "nontrivial_components": 16,
+  "largest_component_nodes": 1877,
+  "nodes_outside_largest_component": 371,
+  "self_loops": 0,
+  "identical_transaction_rows_retained": 97,
+  "period_observed": [
+    "2026-07-01T00:00:00",
+    "2026-07-31T00:00:00"
+  ],
+  "elapsed_seconds": 0.1715
+}

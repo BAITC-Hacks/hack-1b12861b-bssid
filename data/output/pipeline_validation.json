@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "stages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "etl_seconds": 0.1715,
+  "metrics": {
+    "nodes": 2248,
+    "undefined_pass_through": 42,
+    "pass_through_above_one": 354,
+    "isolated_nodes": 19,
+    "sum_in_kzt": 365890012.01,
+    "sum_out_kzt": 365890012.01
+  },
+  "clustering": {
+    "resolution": 1.0,
+    "random_state": 45,
+    "n_clusters": 90,
+    "multi_seed_clusters": 8,
+    "modularity": 0.8610997804009586,
+    "stable_multi_seed_clusters": 5,
+    "pairwise_ari_min": 0.9240622469791689,
+    "reference_deviation": false
+  },
+  "roles": {
+    "role_counts": {
+      "coordinator": 38,
+      "consolidator": 88,
+      "distributor": 35,
+      "transit": 69,
+      "terminal": 191,
+      "peripheral": 1827
+    },
+    "top_nodes": 30,
+    "max_evidence_length": 123,
+    "truncated_nodes": 444,
+    "seed_without_outgoing": 31
+  },
+  "exports": {
+    "status": "passed",
+    "nodes_roles_rows": 2248,
+    "clusters_rows": 90,
+    "top_nodes_rows": 30
+  },
+  "signals": {
+    "tests": 540,
+    "q_below_005": 7
+  },
+  "elapsed_seconds": 2.7872
+}

@@ -1,0 +1,9 @@
+{
+  "resolution": 1.0,
+  "random_states": [42, 43, 44, 45, 46],
+  "sensitivity_resolutions": [0.5, 0.75, 1.25, 1.5, 2.0],
+  "stability_min_jaccard": 0.8,
+  "top_n": 5,
+  "multi_seed_reference": 8,
+  "reference_tolerance": 3
+}

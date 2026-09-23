@@ -1,0 +1,11 @@
+.deps/
+__pycache__/
+data/*.parquet
+node_modules/
+.env
+.build-lock/
+data/output.previous-*/
+data/run-*/
+out/
+.venv/
+money-graph-submission.zip

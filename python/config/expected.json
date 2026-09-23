@@ -1,0 +1,12 @@
+{
+  "nodes": 2248,
+  "seeds": 81,
+  "depth_counts": {"0": 81, "1": 472, "2": 462, "3": 789, "4": 444},
+  "edges": 3119,
+  "transactions": 4840,
+  "sum_kzt": 365890012,
+  "min_transaction_kzt": 5000,
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-31",
+  "max_seconds": 300
+}

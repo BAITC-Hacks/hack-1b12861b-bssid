@@ -1,0 +1,6 @@
+{
+  "name": "money-graph", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {"start": "node index.js", "build": "node build.js", "test": "node --test test/*.test.js"},
+  "dependencies": {"express": "5.1.0", "sigma": "3.0.2", "graphology": "0.26.0"},
+  "devDependencies": {"esbuild": "0.25.10"}
+}
